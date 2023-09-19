@@ -7,6 +7,8 @@
 // Definition yaml_cpp_EXPORTS using to building YAML-CPP as dll/so library
 // (definition created by CMake or defined manually)
 
+#define YAML_CPP_STATIC_DEFINE // Preprocessor definition does not seem to work, so I'm defining it here to fix the issue
+
 #ifdef YAML_CPP_STATIC_DEFINE
 #  define YAML_CPP_API
 #  define YAML_CPP_NO_EXPORT
